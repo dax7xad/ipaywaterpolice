@@ -1,6 +1,6 @@
 # Política de Privacidad - Ipaywater
 
-Fecha de entrada en vigor: [Fecha]
+**Fecha de entrada en vigor: [Fecha]**
 
 ## 1. Información que recopilamos
 
