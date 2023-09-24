@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Política de Privacidad - Ipaywater</title>
+    <!-- Enlace a Bulma CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <!-- Enlace a FontAwesome CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <section class="section">
+        <div class="container">
+            <h1 class="title">Política de Privacidad</h1>
+            <p>Fecha de entrada en vigor: <span id="fecha-entrada"></span></p>
+
+            <p><strong>Ipaywater</strong> ("nosotros", "nuestro", "nuestra") se compromete a respetar y proteger la privacidad de los usuarios ("usted", "su") de nuestra aplicación móvil <strong>Ipaywater</strong> ("la Aplicación"). Esta política de privacidad describe cómo recopilamos, utilizamos y compartimos información personal y no personal cuando usted utiliza nuestra Aplicación. Al utilizar la Aplicación, usted acepta las prácticas descritas en esta política de privacidad.</p>
+
+            <h2 class="subtitle">1. Información que recopilamos</h2>
+
+            <p>1.1. <strong>Información personal:</strong> Podemos recopilar información personal que usted nos proporciona de manera voluntaria, como su nombre, dirección de correo electrónico, número de teléfono y otra información similar cuando se registra o interactúa con la Aplicación.</p>
+
+            <p>1.2. <strong>Información no personal:</strong> También podemos recopilar información no personal, como datos de uso anónimos, estadísticas y métricas de uso de la Aplicación, que nos ayudan a mejorar nuestros servicios.</p>
+
+            <h2 class="subtitle">2. Uso de la información</h2>
+
+            <p>2.1. Utilizamos la información personal para:</p>
+            <ul>
+                <li>Personalizar su experiencia en la Aplicación.</li>
+                <li>Enviarle notificaciones y actualizaciones importantes.</li>
+                <li>Responder a sus preguntas y solicitudes de asistencia.</li>
+            </ul>
+
+            <p>2.2. Utilizamos la información no personal para:</p>
+            <ul>
+                <li>Analizar y mejorar la funcionalidad de la Aplicación.</li>
+                <li>Realizar investigaciones y análisis de mercado.</li>
+            </ul>
+
+            <h2 class="subtitle">3. Compartir información</h2>
+
+            <p>No compartiremos su información personal con terceros sin su consentimiento, excepto cuando sea necesario para proporcionar servicios relacionados con la Aplicación, cumplir con obligaciones legales o proteger nuestros derechos.</p>
+
+            <h2 class="subtitle">4. Seguridad de la información</h2>
+
+            <p>Tomamos medidas razonables para proteger la información personal que recopilamos y almacenamos, pero no podemos garantizar la seguridad absoluta. Usted es responsable de proteger su información de inicio de sesión y no debe compartirla con terceros.</p>
+
+            <h2 class="subtitle">5. Cambios en la política de privacidad</h2>
+
+            <p>Podemos actualizar esta política de privacidad ocasionalmente. Las actualizaciones se publicarán en esta página y se notificarán en la Aplicación. Le recomendamos que revise esta política regularmente.</p>
+
+            <h2 class="subtitle">6. Póngase en contacto con nosotros</h2>
+
+            <p>Si tiene alguna pregunta o inquietud sobre esta política de privacidad o el manejo de su información, por favor contáctenos en <a href="mailto:direccion@ipaywater.com">direccion@ipaywater.com</a>.</p>
+        </div>
+    </section>
+
+    <!-- JavaScript para mostrar la fecha actual -->
+    <script>
+        const fechaEntrada = new Date();
+        const options = { year: 'numeric', month: 'long', day: 'numeric' };
+        document.getElementById('fecha-entrada').textContent = fechaEntrada.toLocaleDateString('es-ES', options);
+    </script>
+</body>
+</html>
